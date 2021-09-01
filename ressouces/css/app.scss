@@ -1,0 +1,107 @@
+// Marc GUILLARD | TP HTML/CSS | Zen Campigne
+// Start of import
+@import "./var";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+// End of import
+
+// Start of global values
+.bg-glass {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+.h2title {
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 2.5rem !important;
+    text-align: center;
+}
+.h5title {
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 2rem !important;
+    text-align: center;
+}
+// End of global values
+
+// Start of header values
+header {
+    background-image: linear-gradient(to left,rgba($darkColor, 0.6), rgba($secondaryColor, 0.4)), url(../medias/img/huttopia-camping-et-villages-tarifs-page-promo-1.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .h1Header {
+        font-family: 'Dancing Script', cursive !important;
+        font-size: 4rem;
+        margin-bottom: 25vh;
+        margin-top: 25vh;
+        text-align: center
+    }
+}
+// End of header values
+
+// Start nav values
+ .logo {
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 2rem !important;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+// End nav values
+
+// Start main values
+.sectionAboutUS {
+    .imgSectionAboutUs, .divSectionAboutUs {
+        max-width: 400px;
+        width: 90vw;
+    }
+}
+.sectionServices {
+    .fas, .fab {
+        background-image: linear-gradient(to left,rgba($darkColor, 1), rgba($secondaryColor, 1));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent;
+        font-size: 10rem;
+        margin-right: 10px;
+    }
+}
+.sectionPortFolio {
+    .img {
+        max-height: 30vh;
+        object-fit: cover;
+        object-position: center;
+        min-width: 100%;
+    }
+}
+.sectionAvis {
+    background-image: linear-gradient(to left,rgba($darkColor, 1), rgba($secondaryColor, 1));
+
+    .carousel-item::before {
+        content: "\201c";
+        font-size: 3rem;
+        position: relative;
+    }
+
+    .imgprofil {
+        border-radius: 50%;
+        height: 60px;
+        margin-top: 50px;
+        width: 60px;
+    }
+}
+// End main values
+
+// Start footer values
+footer {
+    background-image: linear-gradient(to left,rgba($darkColor, 1), rgba($secondaryColor, 1));
+
+    .title {
+        font-family: 'Dancing Script', cursive !important;
+        font-size: 1rem !important;
+    }
+}
+// End footer values

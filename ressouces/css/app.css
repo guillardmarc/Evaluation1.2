@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+.bg-glass {
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.h2title {
+  font-family: 'Dancing Script', cursive !important;
+  font-size: 2.5rem !important;
+  text-align: center;
+}
+
+.h5title {
+  font-family: 'Dancing Script', cursive !important;
+  font-size: 2rem !important;
+  text-align: center;
+}
+
+header {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(152, 221, 202, 0.6)), to(rgba(255, 211, 180, 0.4))), url(../medias/img/huttopia-camping-et-villages-tarifs-page-promo-1.jpg);
+  background-image: linear-gradient(to left, rgba(152, 221, 202, 0.6), rgba(255, 211, 180, 0.4)), url(../medias/img/huttopia-camping-et-villages-tarifs-page-promo-1.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header .h1Header {
+  font-family: 'Dancing Script', cursive !important;
+  font-size: 4rem;
+  margin-bottom: 25vh;
+  margin-top: 25vh;
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Dancing Script', cursive !important;
+  font-size: 2rem !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sectionAboutUS .imgSectionAboutUs, .sectionAboutUS .divSectionAboutUs {
+  max-width: 400px;
+  width: 90vw;
+}
+
+.sectionServices .fas, .sectionServices .fab {
+  background-image: -webkit-gradient(linear, right top, left top, from(#98ddca), to(#ffd3b4));
+  background-image: linear-gradient(to left, #98ddca, #ffd3b4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-size: 10rem;
+  margin-right: 10px;
+}
+
+.sectionPortFolio .img {
+  max-height: 30vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  min-width: 100%;
+}
+
+.sectionAvis {
+  background-image: -webkit-gradient(linear, right top, left top, from(#98ddca), to(#ffd3b4));
+  background-image: linear-gradient(to left, #98ddca, #ffd3b4);
+}
+
+.sectionAvis .carousel-item::before {
+  content: "\201c";
+  font-size: 3rem;
+  position: relative;
+}
+
+.sectionAvis .imgprofil {
+  border-radius: 50%;
+  height: 60px;
+  margin-top: 50px;
+  width: 60px;
+}
+
+footer {
+  background-image: -webkit-gradient(linear, right top, left top, from(#98ddca), to(#ffd3b4));
+  background-image: linear-gradient(to left, #98ddca, #ffd3b4);
+}
+
+footer .title {
+  font-family: 'Dancing Script', cursive !important;
+  font-size: 1rem !important;
+}
+/*# sourceMappingURL=app.css.map */
